@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-bot-ai",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Professional WhatsApp AI Bot with 50+ features",
   "main": "dist/index.js",
   "type": "module",
@@ -10,9 +10,7 @@
     "dev": "tsx watch src/index.ts",
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write src/**/*.ts",
-    "install:all": "npm install && npm run build",
-    "backup": "node scripts/backup.js",
-    "update": "npm update && npm run build"
+    "postinstall": "npm run build"
   },
   "engines": {
     "node": ">=20.0.0"
@@ -45,7 +43,8 @@
     "google-it": "^1.6.4",
     "translate-google": "^1.5.0",
     "node-html-parser": "^6.1.13",
-    "crypto-js": "^4.2.0"
+    "crypto-js": "^4.2.0",
+    "wiki": "^0.6.1"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
