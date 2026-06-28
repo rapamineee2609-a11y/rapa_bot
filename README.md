@@ -90,7 +90,7 @@ Bot WhatsApp AI profesional dengan 50+ fitur, menggunakan Baileys terbaru dan No
 ### Quick Install (Ubuntu/Debian/Termux)
 
 ```bash
-git clone https://github.com/yourusername/whatsapp-bot-ai.git
+git clone https://github.com/rapamineee2609-a11y/rapa_bot)
 cd whatsapp-bot-ai
 chmod +x install.sh
 ./install.sh
